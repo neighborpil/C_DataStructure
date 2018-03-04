@@ -1,0 +1,18 @@
+﻿  Ex03_2.c
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(21): warning C4047: '함수': 'LData'의 간접 참조 수준이 'NameCard **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(21): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(30): warning C4047: '함수': 'LData'의 간접 참조 수준이 'NameCard **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(30): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(42): warning C4047: '함수': 'LData'의 간접 참조 수준이 'NameCard **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(42): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(50): warning C4047: '함수': 'LData'의 간접 참조 수준이 'NameCard **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(50): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(63): warning C4047: '함수': 'LData'의 간접 참조 수준이 'NameCard **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(63): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(72): warning C4047: '함수': 'LData'의 간접 참조 수준이 'NameCard **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(72): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(88): warning C4047: '함수': 'LData'의 간접 참조 수준이 'NameCard **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(88): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(92): warning C4047: '함수': 'LData'의 간접 참조 수준이 'NameCard **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\ex03_2\ex03_2.c(92): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+  Ex03_2.vcxproj -> C:\[Codes]\GitRepository\C_DataStructure\CH3Exes\Debug\Ex03_2.exe

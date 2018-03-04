@@ -1,0 +1,14 @@
+﻿  PointListMain.c
+c:\[codes]\gitrepository\c_datastructure\ch3exes\pointlist\pointlistmain.c(32): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\pointlist\pointlistmain.c(32): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\pointlist\pointlistmain.c(36): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\pointlist\pointlistmain.c(36): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\pointlist\pointlistmain.c(45): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\pointlist\pointlistmain.c(45): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\pointlist\pointlistmain.c(53): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\pointlist\pointlistmain.c(53): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\pointlist\pointlistmain.c(66): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\pointlist\pointlistmain.c(66): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\pointlist\pointlistmain.c(70): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\[codes]\gitrepository\c_datastructure\ch3exes\pointlist\pointlistmain.c(70): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+  PointList.vcxproj -> C:\[Codes]\GitRepository\C_DataStructure\CH3Exes\Debug\PointList.exe

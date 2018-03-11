@@ -16,6 +16,7 @@ typedef struct _node
 typedef struct _DLinkedList
 {
 	Node* head;
+	Node* tail;
 	Node* cur;
 	int numOfData;
 } DBLinkedList;
@@ -27,7 +28,9 @@ void LInsert(List* plist, Data data);
 
 int LFirst(List* plist, Data* pdata);
 int LNext(List* plist, Data* pdata);
-int LPrevious(List* plist, Data* pdata);
+//int LPrevious(List* plist, Data* pdata);
+
+int LRemove(List* list);
 int LCount(List* plist);
 
 #endif // !__DB_LINKED_LIST_H__

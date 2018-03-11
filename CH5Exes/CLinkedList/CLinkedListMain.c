@@ -51,7 +51,7 @@ int main(void)
 		printf("%d ", data);
 		for (i = 0; i < LCount(&list) - 1; i++)
 		{
-			if(LNext(&list, &data))
+			if(LNext(&list, &data)) 
 				printf("%d ", data);
 		}
 	}

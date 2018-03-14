@@ -1,0 +1,5 @@
+﻿  LinkedListBaseStackMain.c
+c:\[codes]\gitrepository\c_datastructure\ch6exes\ex06_1_stackusinglinkedlist\linkedlistbasestackmain.c(22): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  LinkedListBaseStack.c
+  코드를 생성하고 있습니다...
+  EX06_1_StackUsingLinkedList.vcxproj -> C:\[Codes]\GitRepository\C_DataStructure\CH6Exes\Debug\EX06_1_StackUsingLinkedList.exe

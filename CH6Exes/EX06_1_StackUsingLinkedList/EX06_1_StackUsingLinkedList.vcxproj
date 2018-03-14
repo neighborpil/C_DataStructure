@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{62B6FFE7-C6ED-4097-A1AD-AF115810A0CC}</ProjectGuid>
-    <RootNamespace>ArrayBaseStack</RootNamespace>
+    <ProjectGuid>{16278549-9621-4075-9ACE-4FF1EBD0D9E4}</ProjectGuid>
+    <RootNamespace>EX061StackUsingLinkedList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -111,11 +111,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayBaseStack.h" />
+    <ClCompile Include="DLinkedList.c" />
+    <ClCompile Include="LinkedListBaseStack.c" />
+    <ClCompile Include="LinkedListBaseStackMain.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayBaseStack.c" />
-    <ClCompile Include="ArrayBaseStackMain.c" />
+    <ClInclude Include="DLinkedList.h" />
+    <ClInclude Include="LinkedListBaseStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

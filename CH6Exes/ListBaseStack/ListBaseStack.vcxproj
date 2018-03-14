@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{62B6FFE7-C6ED-4097-A1AD-AF115810A0CC}</ProjectGuid>
-    <RootNamespace>ArrayBaseStack</RootNamespace>
+    <ProjectGuid>{0F9E104A-C823-43D4-AB50-C968817215D8}</ProjectGuid>
+    <RootNamespace>ListBaseStack</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -111,11 +111,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayBaseStack.h" />
+    <ClInclude Include="ListBaseStack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayBaseStack.c" />
-    <ClCompile Include="ArrayBaseStackMain.c" />
+    <ClCompile Include="ListBaseStack.c" />
+    <ClCompile Include="ListBaseStackMain.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

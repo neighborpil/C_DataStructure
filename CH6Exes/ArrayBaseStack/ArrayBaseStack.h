@@ -16,10 +16,10 @@ typedef struct _arrayStack
 typedef ArrayStack Stack;
 
 void StackInit(Stack* pstack);
-void SIsEmpty(Stack* pstack);
+int SIsEmpty(Stack* pstack);
 
 void SPush(Stack* pstack, Data data);
-void SPop(Stack* pstack);
-void SPeek(Stack* pstack);
+Data SPop(Stack* pstack);
+Data SPeek(Stack* pstack);
 
 #endif // !__AB_STACK_H__

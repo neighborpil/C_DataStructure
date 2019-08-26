@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int LSearch(int ar[], int len, int target)
+{
+	int i;
+	for (i = 0; i < len; i++) // ¼øÂ÷ Å½»ö
+	{
+		if (ar[i] == target)
+			return i; // Ã£Àº ´ë»ó ÀÎµ¦½º ¹İÈ¯
+	}
+	return -1; // Ã£Áö ¸øÇßÀ½
+}
+
+int main(void)
+{
+	int arr[] = { 3,5,2,4,9 };
+
+	int idx;
+
+	idx = LSearch(arr, sizeof(arr) / sizeof(int), 4);
+	if (idx == - 1)
+		printf("Å½»ö ½ÇÆĞ!\n");
+	else
+		printf("Å¸°Ù ÀúÀå ÀÎµ¦½º: %d \n", idx);
+
+	idx = LSearch(arr, sizeof(arr) / sizeof(int), 7);
+	if (idx == - 1)
+		printf("Å½»ö ½ÇÆĞ!\n");
+	else
+		printf("Å¸°Ù ÀúÀå ÀÎµ¦½º: %d \n", idx);
+
+	system("pause");
+
+	return 0;
+}

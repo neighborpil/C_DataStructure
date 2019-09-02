@@ -1,0 +1,3 @@
+﻿  FobonacciFunc.c
+c:\codes\gitrepository\c_datastructure\ch2exes_2\fibonaccifunc\fobonaccifunc.c(26): warning C4013: 'system' undefined; assuming extern returning int
+  FibonacciFunc.vcxproj -> C:\codes\GitRepository\C_DataStructure\CH2Exes_2\Debug\FibonacciFunc.exe

@@ -1,0 +1,7 @@
+C:\codes\GitRepository\C_DataStructure\CH1Exes_2\BinarySearch_CS\bin\Debug\BinarySearch_CS.exe.config
+C:\codes\GitRepository\C_DataStructure\CH1Exes_2\BinarySearch_CS\bin\Debug\BinarySearch_CS.exe
+C:\codes\GitRepository\C_DataStructure\CH1Exes_2\BinarySearch_CS\bin\Debug\BinarySearch_CS.pdb
+C:\codes\GitRepository\C_DataStructure\CH1Exes_2\BinarySearch_CS\obj\Debug\BinarySearch_CS.csprojAssemblyReference.cache
+C:\codes\GitRepository\C_DataStructure\CH1Exes_2\BinarySearch_CS\obj\Debug\BinarySearch_CS.csproj.CoreCompileInputs.cache
+C:\codes\GitRepository\C_DataStructure\CH1Exes_2\BinarySearch_CS\obj\Debug\BinarySearch_CS.exe
+C:\codes\GitRepository\C_DataStructure\CH1Exes_2\BinarySearch_CS\obj\Debug\BinarySearch_CS.pdb

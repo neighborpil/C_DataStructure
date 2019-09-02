@@ -1,0 +1,3 @@
+﻿  RecursiveBinarySearch.c
+c:\codes\gitrepository\c_datastructure\ch2exes_2\recursivebinarysearch\recursivebinarysearch.c(33): warning C4013: 'system' undefined; assuming extern returning int
+  RecursiveBinarySearch.vcxproj -> C:\codes\GitRepository\C_DataStructure\CH2Exes_2\Debug\RecursiveBinarySearch.exe

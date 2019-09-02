@@ -1,0 +1,3 @@
+﻿  BSWorstOpCount.c
+c:\codes\gitrepository\c_datastructure\ch1exes_2\bsworstopcount\bsworstopcount.c(60): warning C4013: 'system' undefined; assuming extern returning int
+  BSWorstOpCount.vcxproj -> C:\codes\GitRepository\C_DataStructure\CH1Exes_2\Debug\BSWorstOpCount.exe

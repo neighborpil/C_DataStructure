@@ -1,0 +1,3 @@
+﻿  ListMain.c
+c:\codes\gitrepository\c_datastructure\ch3exes_2\listmain\listmain.c(89): warning C4013: 'system' undefined; assuming extern returning int
+  ListMain.vcxproj -> C:\codes\GitRepository\C_DataStructure\CH3Exes_2\Debug\ListMain.exe

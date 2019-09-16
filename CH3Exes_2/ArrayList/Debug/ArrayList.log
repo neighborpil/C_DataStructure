@@ -1,0 +1,5 @@
+﻿  ArrayList.c
+  ListMain.c
+c:\codes\gitrepository\c_datastructure\ch3exes_2\arraylist\listmain.c(89): warning C4013: 'system' undefined; assuming extern returning int
+  Generating Code...
+  ArrayList.vcxproj -> C:\codes\GitRepository\C_DataStructure\CH3Exes_2\Debug\ArrayList.exe

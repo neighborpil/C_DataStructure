@@ -8,7 +8,7 @@
 
 #define LIST_LEN 100
 
-typedef Point LData;
+typedef Point* LData;
 
 typedef struct __ArrayList
 {

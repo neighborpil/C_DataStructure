@@ -51,7 +51,7 @@ int LNext(List* plist, LData* pdata)
 
 LData LRemove(List* plist)
 {
-	int currentData = plist->arr[plist->curPosition];
+	LData currentData = plist->arr[plist->curPosition];
 
 	for (int i = plist->curPosition; i < plist->numOfData-1; i++)
 	{

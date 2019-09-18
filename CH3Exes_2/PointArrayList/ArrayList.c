@@ -7,7 +7,7 @@ void ListInit(List* plist)
 	plist->curPosition = -1;
 }
 
-void LInsert(List* plist, LData data) 
+void LInsert(List* plist, LData data)
 {
 	if (plist->curPosition == LIST_LEN)
 	{
@@ -32,12 +32,6 @@ int LFirst(List* plist, LData* pdata)
 
 int LNext(List* plist, LData* pdata)
 {
-	if (plist->curPosition == -1)
-	{
-		puts("Run LFirst first!");
-		return FALSE;
-	}
-
 	plist->curPosition++;
 
 	if (plist->curPosition == plist->numOfData)
@@ -51,15 +45,20 @@ int LNext(List* plist, LData* pdata)
 
 LData LRemove(List* plist)
 {
-	int currentData = plist->arr[plist->curPosition];
+	int removeStartPosition = plist->curPosition;
 
-	for (int i = plist->curPosition; i < plist->numOfData-1; i++)
+	int numberOfData = plist->numOfData;
+
+	LData currentData = plist->arr[plist->curPosition];
+
+	for (int i = removeStartPosition; i < numberOfData - 1; i++)
 	{
-		plist->arr[plist->curPosition] = plist->arr[plist->curPosition + 1];
+		plist->arr[i] = plist->arr[i + 1];
 	}
 
-	plist->numOfData--;
-	plist->curPosition--;
+	(plist->numOfData)--;
+
+	(plist->curPosition)--;
 
 	return currentData;
 }

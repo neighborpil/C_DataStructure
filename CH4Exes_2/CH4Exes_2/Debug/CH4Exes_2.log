@@ -1,0 +1,5 @@
+﻿  ArrayRead.c
+c:\users\pilhong park\source\repos\ch4exes_2\ch4exes_2\arrayread.c(15): warning C4474: 'scanf_s' : too many arguments passed for format string
+  c:\users\pilhong park\source\repos\ch4exes_2\ch4exes_2\arrayread.c(15): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+c:\users\pilhong park\source\repos\ch4exes_2\ch4exes_2\arrayread.c(25): warning C4013: 'system' undefined; assuming extern returning int
+  CH4Exes_2.vcxproj -> C:\Users\Pilhong Park\source\repos\CH4Exes_2\Debug\CH4Exes_2.exe

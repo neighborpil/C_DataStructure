@@ -1,0 +1,4 @@
+﻿  LinkedRead.c
+c:\users\pilhong park\source\repos\ch4exes_2\linkedread\linkedread.c(26): warning C4474: 'scanf_s' : too many arguments passed for format string
+  c:\users\pilhong park\source\repos\ch4exes_2\linkedread\linkedread.c(26): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  LinkedRead.vcxproj -> C:\Users\Pilhong Park\source\repos\CH4Exes_2\Debug\LinkedRead.exe

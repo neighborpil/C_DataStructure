@@ -117,6 +117,10 @@
   <ItemGroup>
     <ClInclude Include="DLinkedList.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLinkedList.c" />
+    <ClCompile Include="DLinkedListMain.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

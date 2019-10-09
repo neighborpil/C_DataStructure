@@ -1,1 +1,3 @@
-﻿
+﻿  DLinkedListMain.c
+c:\codes\gitrepository\c_datastructure\ch4exes_2\dlinkedlist\dlinkedlistmain.c(66): warning C4013: 'system' undefined; assuming extern returning int
+  DLinkedList.vcxproj -> C:\codes\GitRepository\C_DataStructure\CH4Exes_2\Debug\DLinkedList.exe

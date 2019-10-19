@@ -1,5 +1,15 @@
 ﻿  CheckNightDutyMain.c
-c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(20): warning C4101: 'data': unreferenced local variable
-c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(43): warning C4013: 'strlen' undefined; assuming extern returning int
-c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(46): warning C4013: 'strcpy_s' undefined; assuming extern returning int
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(57): warning C4013: 'system' undefined; assuming extern returning int
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(66): warning C4013: 'strlen' undefined; assuming extern returning int
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(69): warning C4013: 'strcpy_s' undefined; assuming extern returning int
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(97): warning C4047: 'function': 'List *' differs in levels of indirection from 'List **'
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(97): warning C4024: 'LFirst': different types for formal and actual parameter 1
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(101): warning C4047: 'function': 'List *' differs in levels of indirection from 'List **'
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(101): warning C4024: 'GetNextDutyPerson': different types for formal and actual parameter 1
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(106): warning C4047: 'function': 'List *' differs in levels of indirection from 'List **'
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(106): warning C4024: 'LNext': different types for formal and actual parameter 1
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(110): warning C4047: 'function': 'List *' differs in levels of indirection from 'List **'
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(110): warning C4024: 'GetNextDutyPerson': different types for formal and actual parameter 1
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(113): warning C4047: '=': 'int' differs in levels of indirection from 'char *'
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(133): warning C4013: 'strcmp' undefined; assuming extern returning int
   Ex5_1.vcxproj -> C:\codes\GitRepository\C_DataStructure\CH5Exes_2\Debug\Ex5_1.exe

@@ -1,0 +1,11 @@
+﻿  CheckNightDutyMain.c
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(32): warning C4013: 'system' undefined; assuming extern returning int
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(16): warning C4101: 'data': unreferenced local variable
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(38): warning C4013: 'malloc' undefined; assuming extern returning int
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(44): warning C4013: 'strcpy_s' undefined; assuming extern returning int
+c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1\checknightdutymain.c(52): warning C4013: 'free' undefined; assuming extern returning int
+  CLinkedList.c
+  Generating code
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Ex5_1.vcxproj -> C:\codes\GitRepository\C_DataStructure\CH5Exes_2\Release\Ex5_1.exe

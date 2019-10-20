@@ -6,7 +6,7 @@
 #define TRUE 1
 #define FALSE 0
 
-typedef Employee Data;
+typedef Employee* Data;
 
 typedef struct _node
 {

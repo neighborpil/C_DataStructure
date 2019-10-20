@@ -11,7 +11,6 @@ void ShowEmployeeInfo(Employee* emp);
 
 int main(void)
 {
-	int i;
 	Employee* pemp;
 
 	// 리스트 생성 및 초기화
@@ -20,16 +19,16 @@ int main(void)
 
 	// 4명 데이터 저장
 	pemp = CreateEmployee(1, "Terry");
-	LInsert(&list, *pemp);
+	LInsert(&list, pemp);
 
 	pemp = CreateEmployee(2, "Jery");
-	LInsert(&list, *pemp);
+	LInsert(&list, pemp);
 
 	pemp = CreateEmployee(3, "Hary");
-	LInsert(&list, *pemp);
+	LInsert(&list, pemp);
 
 	pemp = CreateEmployee(4, "Sunny");
-	LInsert(&list, *pemp);
+	LInsert(&list, pemp);
 
 	// Terry이후 3일 뒤 당직자는?
 	pemp = WhosNightDuty(&list, "Terry", 3);
@@ -40,13 +39,13 @@ int main(void)
 	ShowEmployeeInfo(pemp);
 
 	// 전체 메모리 소멸
-	if (LFirst(&list, pemp))
+	if (LFirst(&list, &pemp))
 	{
 		free(pemp);
 
 		for (int i = 0; i < LCount(&list) - 1; i++)
 		{
-			if (LNext(&list, pemp))
+			if (LNext(&list, &pemp))
 			{
 				free(pemp);
 			}
@@ -69,8 +68,6 @@ Employee* CreateEmployee(int employeeNumber, char* name)
 
 Employee* WhosNightDuty(List* plist, char* name, int days)
 {
-
-	printf("%s \n", name);
 	Employee* ret;
 
 	int num = LCount(plist);
@@ -101,6 +98,6 @@ Employee* WhosNightDuty(List* plist, char* name, int days)
 
 void ShowEmployeeInfo(Employee* emp)
 {
-	printf("Employee name: %d", emp->empNum);
-	printf("Employee name: %s", emp->name);
+	printf("Employee name: %d \n", emp->empNum);
+	printf("Employee name: %s \n", emp->name);
 }

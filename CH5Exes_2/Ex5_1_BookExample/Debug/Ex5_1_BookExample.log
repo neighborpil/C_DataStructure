@@ -1,9 +1,2 @@
 ﻿  NightDutyMain.c
-c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1_bookexample\nightdutymain.c(14): warning C4101: 'i': unreferenced local variable
-c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1_bookexample\nightdutymain.c(79): warning C4047: 'function': 'Data *' differs in levels of indirection from 'Employee **'
-c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1_bookexample\nightdutymain.c(79): warning C4024: 'LFirst': different types for formal and actual parameter 2
-c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1_bookexample\nightdutymain.c(85): warning C4047: 'function': 'Data *' differs in levels of indirection from 'Employee **'
-c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1_bookexample\nightdutymain.c(85): warning C4024: 'LNext': different types for formal and actual parameter 2
-c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1_bookexample\nightdutymain.c(96): warning C4047: 'function': 'Data *' differs in levels of indirection from 'Employee **'
-c:\codes\gitrepository\c_datastructure\ch5exes_2\ex5_1_bookexample\nightdutymain.c(96): warning C4024: 'LNext': different types for formal and actual parameter 2
   Ex5_1_BookExample.vcxproj -> C:\codes\GitRepository\C_DataStructure\CH5Exes_2\Debug\Ex5_1_BookExample.exe

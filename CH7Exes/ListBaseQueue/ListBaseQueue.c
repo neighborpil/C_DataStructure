@@ -10,7 +10,7 @@ void QueueInit(Queue* pq)
 
 int QIsEmpty(Queue* pq)
 {
-	if (pq->front == pq->rear)
+	if (pq->front == NULL)
 		return TRUE;
 	else
 		return FALSE;
@@ -23,15 +23,44 @@ void Enqueue(Queue* pq, Data data)
 	newNode->data = data;
 	newNode->next = NULL;
 
-	pq->rear->next = newNode;
-	pq->rear = newNode;
+	if (QIsEmpty(pq))
+	{
+		pq->front = newNode;
+		pq->rear = newNode;
+	}
+	else
+	{
+		pq->rear->next = newNode;
+		pq->rear = newNode;
+	}
 }
 
 Data Dequeue(Queue* pq)
 {
-	Node rNode;
+	if (QIsEmpty(pq))
+	{
+		printf("No data");
+		exit(-1);
+	}
+
+	Node* rNode;
 	Data rData;
 
+	rNode = pq->front;
+	rData = rNode->data;
 
+	pq->front = pq->front->next;
+	free(rNode);
+
+	return rData;
 }
-Data QPeek(Queue* pq);
+Data QPeek(Queue* pq)
+{
+	if (QIsEmpty(pq))
+	{
+		printf("No data");
+		exit(-1);
+	}
+
+	return pq->front->data;
+}

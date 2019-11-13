@@ -1,0 +1,5 @@
+﻿  CircularQueue.c
+  HambergerSim.c
+  Generating Code...
+C:\codes\GitRepository\C_DataStructure\CH7Exes\HamburgerSim\HambergerSim.c(26,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  HamburgerSim.vcxproj -> C:\codes\GitRepository\C_DataStructure\CH7Exes\Debug\HamburgerSim.exe

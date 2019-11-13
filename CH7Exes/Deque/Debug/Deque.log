@@ -1,0 +1,6 @@
+﻿  Deque.c
+C:\codes\GitRepository\C_DataStructure\CH7Exes\Deque\Deque.c(104,19): warning C4047: 'return': 'Data' differs in levels of indirection from 'Node *'
+  DequeMain.c
+  Generating Code...
+C:\codes\GitRepository\C_DataStructure\CH7Exes\Deque\Deque.c(115,19): warning C4047: 'return': 'Data' differs in levels of indirection from 'Node *'
+  Deque.vcxproj -> C:\codes\GitRepository\C_DataStructure\CH7Exes\Debug\Deque.exe

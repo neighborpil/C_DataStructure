@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{E2B0F4E7-9ACD-4DC8-83E3-AAD71510851A}</ProjectGuid>
-    <RootNamespace>UsefulHeap</RootNamespace>
+    <ProjectGuid>{EB584885-A954-42CD-B1D2-BE3BC7EA9993}</ProjectGuid>
+    <RootNamespace>Ex91CompareLengthOfSentence</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,11 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="UsefulHeap.h" />
+    <ClCompile Include="CompareLengthOfSentenceMain.c" />
+    <ClCompile Include="PriorityQueue.c" />
+    <ClCompile Include="UsefulHeap.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UsefulHeap.c" />
-    <ClCompile Include="UsefulHeapMain.c" />
+    <ClInclude Include="PriorityQueue.h" />
+    <ClInclude Include="UsefulHeap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

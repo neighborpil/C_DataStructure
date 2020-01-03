@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+int MedianOfThree(int arr[], int left, int right);
 void Swap(int arr[], int idx1, int idx2);
 int Partition(int arr[], int left, int right);
 void QuickSort(int arr[], int left, int right);
@@ -9,6 +10,7 @@ int main(void)
 {
 	int arr[7] = { 3, 2, 4, 1, 7, 6, 5 };
 	// int arr[3] = { 3, 3, 3 };
+	//int arr[15] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
 
 	int len = sizeof(arr) / sizeof(int);
 	
@@ -22,6 +24,22 @@ int main(void)
 	return 0;
 }
 
+int MedianOfThree(int arr[], int left, int right)
+{
+	int samples[3] = { left, (left + right) / 2, right }; // 인덱스 값으로 배열을 구성
+
+	if (arr[samples[0]] > arr[samples[1]])
+		Swap(samples, 0, 1);
+
+	if (arr[samples[1]] > arr[samples[2]])
+		Swap(samples, 1, 2);
+
+	if (arr[samples[0]] > arr[samples[1]])
+		Swap(samples, 0, 1);
+
+	return samples[1];
+}
+
 void Swap(int arr[], int idx1, int idx2)
 {
 	int temp = arr[idx1];
@@ -31,9 +49,17 @@ void Swap(int arr[], int idx1, int idx2)
 
 int Partition(int arr[], int left, int right)
 {
-	int pivot = arr[left]; // 피벗의 위치는 가장 왼쪽
+	//int pivot = arr[left]; // 피벗의 위치는 가장 왼쪽
+	//int pivot = arr[(left + right) / 2]; // 피벗의 위치는 가장 왼쪽
+	int pIdx = MedianOfThree(arr, left, right); // 피벗을 선택
+	int pivot = arr[pIdx];
+
 	int low = left + 1;
 	int high = right;
+
+	Swap(arr, left, pIdx);
+
+	printf("피벗: %d \n", pivot);
 
 	while (low <= high)
 	{

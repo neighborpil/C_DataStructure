@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{2AE165C5-6BD2-4700-A0F5-A32DA63E528D}</ProjectGuid>
-    <RootNamespace>QuickSort2</RootNamespace>
+    <ProjectGuid>{D905D1D3-A600-42D0-8BA2-D13463178D1D}</ProjectGuid>
+    <RootNamespace>RadixSort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="QuickSort.c" />
+    <ClCompile Include="RadixSort.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

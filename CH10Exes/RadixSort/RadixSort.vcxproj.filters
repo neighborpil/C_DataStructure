@@ -18,5 +18,13 @@
     <ClCompile Include="RadixSort.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ListBaseQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ListBaseQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
